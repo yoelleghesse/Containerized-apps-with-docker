@@ -31,7 +31,7 @@ I utilized the following commands to pull the NGINX image, run the web app conta
 docker image pull nginx
 
 2. Run the Web App Container:
-docker container run -d --p 80:80 --name mywebapp nginx
+docker container run -d -p 80:80 --name mywebapp nginx
 This command runs the NGINX container in the background, publishing port 80 on your host machine.
 
 3. Access the Web App:
