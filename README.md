@@ -74,7 +74,7 @@ docker commit -m "Description of changes" -a "Your Name" CONTAINER_ID|CONTAINER_
 docker container run -it repository/new_image_name:tag
 ```
 # Pushing Custom Images to Docker Hub:
-To share the custom image, this is what I did (download first [Docker Hub](https://hub.docker.com/):
+To share the custom image, this is what I did (download first: [Docker Hub](https://hub.docker.com/) ):
 ```
 1. Created an account on hub.docker.com
 
