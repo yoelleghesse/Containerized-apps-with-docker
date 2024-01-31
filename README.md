@@ -35,7 +35,7 @@ docker container run -d -p 80:80 --name mywebapp nginx
 This command runs the NGINX container in the background, publishing port 80 on your host machine.
 
 3. Access the Web App:
-Open your web browser and navigate to http://localhost. There should be the default NGINX welcome page.
+Grab your IP with "ip a" in the terminal and then open your web browser and paste it in your browser followed by ":8080". There should be the default NGINX welcome page.
 ```
 ## Managing Containers and Images:
 Then I learnt how to manage containers and images with the following commands:
